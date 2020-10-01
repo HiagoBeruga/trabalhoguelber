@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Template;
+package template;
 
 /**
  *
  * @author Hiagones
  */
-public abstract class Animal{
+public abstract class AnimalT{
     private String nome = "";
     
     private void comer(){

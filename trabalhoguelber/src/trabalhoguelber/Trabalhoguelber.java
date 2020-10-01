@@ -1,22 +1,30 @@
 package trabalhoguelber;
 
-import Template.Animal;
-import Template.Ave;
-import Template.Mamifero;
+import template.AnimalT;
+import template.Ave;
+import template.Mamifero;
+
+import factory.AnimalF;
+import factory.FactoryAnimal;
 
 public class Trabalhoguelber {
 
     public static void main(String[] args) {
         
+        //----------------------Template
         
-        Animal porco = new Mamifero();
+        System.out.print("Template:\n\n");
+        AnimalT porco = new Mamifero();
         porco.criar("sua mãe");
-
+        
+        //----------------------Factory
+        
+        System.out.print("\n\nFactory:\n\n");
         FactoryAnimal factory = new FactoryAnimal();
-		String nome = "Cavalo";
-		boolean botaOvo = false;
-		factory.getAnimal(nome, botaOvo);
-	}
+	String nomef = "Periquito";
+	boolean botaOvo = true;
+	factory.getAnimal(nomef, botaOvo);
+	
     }
     
 }

@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Template;
+package template;
 
 /**
  *
  * @author Hiagones
  */
-public class Ave extends Animal{
+public class Mamifero extends AnimalT{
 
     @Override
     public void reproduzir(String a) {
-        System.out.println(a + " está botando ovo...\n");
+        System.out.println(a + " está parindo o filhote...\n");
     }
     
 }
