@@ -31,6 +31,8 @@ public class Trabalhoguelber {
 
     //------------------------ Template
         System.out.print("\n\nStrategy:");
-        AnimalStrategy animal = new Animal
+        AnimalStrategy animal = new AnimalStrategy()
+            
+        
     }
 }
